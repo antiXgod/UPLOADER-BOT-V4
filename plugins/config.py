@@ -12,8 +12,8 @@ logging.basicConfig(
 class Config(object):
     
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-    API_ID = int(os.environ.get("API_ID", ))
-    API_HASH = os.environ.get("API_HASH", "")
+    API_ID = int(os.environ.get("API_ID", "22677941"))
+    API_HASH = os.environ.get("API_HASH", "43b76b9bd08d90eb32eb06298dc18b1b")
     
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     MAX_FILE_SIZE = 2194304000
@@ -26,7 +26,7 @@ class Config(object):
     OUO_IO_API_KEY = ""
     MAX_MESSAGE_LENGTH = 4096
     PROCESS_MAX_TIMEOUT = 3600
-    DEF_WATER_MARK_FILE = "@UploaderXNTBot"
+    DEF_WATER_MARK_FILE = "@AJUPLOADERxBOT"
 
     ADMIN = set(
         int(x) for x in environ.get("ADMIN", "").split()
@@ -40,14 +40,14 @@ class Config(object):
 
     DATABASE_URL = os.environ.get("DATABASE_URL", "")
 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003803525587"))
     LOGGER = logging
-    OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "5935267941"))
     SESSION_NAME = "UploaderXNTBot"
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001516086171")
 
     TG_MIN_FILE_SIZE = 2194304000
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "AJUPLOADERxBOT")
     ADL_BOT_RQ = {}
 
     # Set False off else True
